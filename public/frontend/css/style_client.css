@@ -1,0 +1,102 @@
+.main_card
+{
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.slider{
+    position: absolute;
+    background: #083C6F;
+    bottom: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: .7s;
+}
+
+ .main_card:hover .slider{
+    height: 100%;
+    opacity: 0.7;
+
+ }
+.slider .content{
+    opacity:1;
+    position: absolute;
+    font-size: 25px;
+    font-display: block;
+    z-index: 1;
+}
+.underline{
+    width: 5%;
+    height: 10px;
+    margin-top: 0px;
+}
+
+.content_soft
+{
+
+    /* color: black; */
+    font-size: 25px;
+}
+
+.course_details{
+    /* margin-top: 3%; */
+    font-size: 22px;
+    color: rgb(26, 23, 23);
+}
+.img_course
+{
+    margin:auto
+}
+
+.b_shadow{
+    box-shadow: 0px 10px 15px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.per_web{
+    background-color: #CFE5FA  ;
+}
+.identify_content{
+    font-size: 22px;
+    color: rgb(26, 23, 23);
+}
+
+.web_img
+{
+    position: relative;
+}
+ .web_content{
+
+    position: absolute;
+    background: #083C6F;
+    bottom: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: .7s;
+    left:0;
+    top:0;
+ }
+ .web_img:hover .web_content{
+    height: 100%;
+    opacity: 0.7;
+ }
+
+ .web_content a
+{
+    font-size: 25px;
+}
+.faq_question
+{
+    background-color: white;
+}
+.showcase
+{
+background-color: rgb(135, 165, 241);
+}

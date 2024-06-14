@@ -21,9 +21,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[homeController::class,'index']);
 Route::prefix('Home/')->group(function(){
 Route::get('about',[homeController::class,'about']);
-Route::get('service',[homeController::class,'service']);
+Route::get('soft_dev',[homeController::class,'soft_dev']);
 Route::get('blog',[homeController::class,'blog']);
 Route::get('contact',[homeController::class,'contact']);
 Route::get('portfolio',[homeController::class,'portfolio']);
+Route::get('client',[homeController::class,'client']);
 
 });

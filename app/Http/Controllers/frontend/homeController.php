@@ -13,8 +13,8 @@ class homeController extends Controller
     public function about(){
         return view('home.about');
     }
-    public function service(){
-        return view('home.service');
+    public function soft_dev(){
+        return view('home.soft_dev');
     }
     public function blog(){
         return view('home.blog');
@@ -24,5 +24,9 @@ class homeController extends Controller
     }
     public function portfolio(){
         return view('home.portfolio');
+    }
+
+    public function client(){
+        return view('home.client');
     }
 }

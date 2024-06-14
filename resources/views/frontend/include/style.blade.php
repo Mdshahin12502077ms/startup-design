@@ -19,3 +19,6 @@
 
  <!-- Template Stylesheet -->
  <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
+
+ <link href="{{asset('frontend/css/style_client.css')}}" rel="stylesheet">
+ <link href="{{asset('frontend/css/soft_dev.css')}}" rel="stylesheet">
