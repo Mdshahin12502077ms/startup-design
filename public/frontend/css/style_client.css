@@ -39,13 +39,34 @@
 {
 
     /* color: black; */
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(26, 23, 23);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+p{
+margin-bottom: 1.75em;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
 }
 
 .course_details{
     /* margin-top: 3%; */
     font-size: 22px;
+    font-weight: 200;
     color: rgb(26, 23, 23);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+ /* font-family: 'Times New Roman', Times, serif; */
+
+
+
 }
 .img_course
 {
@@ -58,10 +79,16 @@
 }
 .per_web{
     background-color: #CFE5FA  ;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+
 }
+
+
 .identify_content{
     font-size: 22px;
     color: rgb(26, 23, 23);
+
 }
 
 .web_img
@@ -99,4 +126,8 @@
 .showcase
 {
 background-color: rgb(135, 165, 241);
+}
+.course
+{
+    margin-top: 20vh;
 }

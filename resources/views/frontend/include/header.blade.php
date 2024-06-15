@@ -62,13 +62,13 @@
                  <div class="nav-item dropdown">
                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                      <div class="dropdown-menu m-0">
-                         <a href="{{ url('Home/soft_dev') }}"
-                             class="dropdown-item{{ Request::is('Home/soft_dev') ? 'active' : '' }}">Software Development</a>
-                         <a href="feature.html" class="dropdown-item">Website Development</a>
-                         <a href="team.html" class="dropdown-item">Apps Development</a>
-                         <a href="feature.html" class="dropdown-item">Business Automation</a>
-                         <a href="team.html" class="dropdown-item">Application Maintenance</a>
-                         <a href="team.html" class="dropdown-item">Consultancy</a>
+                         <a href="{{ url('service/soft_dev') }}"
+                             class="dropdown-item{{ Request::is('service/soft_dev') ? 'active' : '' }}">Software Development</a>
+                         <a href="{{ url('service/web_dev') }}" class="dropdown-item{{ Request::is('service/web_dev') ? 'active' : '' }}">Website Development</a>
+                         <a href="{{ url('service/app_dev') }}" class="dropdown-item{{ Request::is('service/app_dev') ? 'active' : '' }}">Apps Development</a>
+                         <a href="{{ url('service/buss_dev') }}" class="dropdown-item{{ Request::is('service/buss_dev') ? 'active' : '' }}">Business Automation</a>
+                         <a href="{{ url('service/application_dev')}}" class="dropdown-item{{ Request::is('service/application_dev') ? 'active' : '' }}">Application Maintenance</a>
+                         <a href="{{ url('service/consult_dev') }}" class="dropdown-item{{ Request::is('service/consult_dev') ? 'active' : '' }}">Consultancy</a>
 
                      </div>
                  </div>
